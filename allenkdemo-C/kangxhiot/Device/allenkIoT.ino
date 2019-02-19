@@ -95,7 +95,7 @@ static int  DeviceMethodCallback(const char *methodName, const unsigned char *pa
 void setup()
 {
   Screen.init();
-  Screen.print(0, "IoT DevKit");
+  Screen.print(0, "AllenK IoT DevKit Demo");
   Screen.print(2, "Initializing...");
   
   Screen.print(3, " > Serial");
